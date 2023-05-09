@@ -9,26 +9,21 @@ public class ScaleObject : MonoBehaviour
     private bool zoomIn;
     private bool zoomOut;
 
-    //object scale speed
     public float Scale = 0.03f;
 
-    // Update is called once per frame
     void Update(){
         if (zoomIn)
         {
-            //make a bigger object
             _object.transform.localScale += new Vector3(Scale, Scale, Scale);
         }
 
         if (zoomOut)
         {
-            //make a small object
             _object.transform.localScale -= new Vector3(Scale, Scale, Scale);
         }
         
     }
 
-    //Make object scaled big
     public void OnPressZoomIn()
     {
         zoomIn = true;
@@ -39,7 +34,6 @@ public class ScaleObject : MonoBehaviour
         zoomIn = false;
     }
 
-    //Make object scaled small
     public void OnPressZoomOut()
     {
         zoomOut = true;
