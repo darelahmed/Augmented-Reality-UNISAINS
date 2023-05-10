@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &64528498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8d6414c09ca531d4999681c7b2da55c3, type: 3}
+  m_PrefabInstance: {fileID: 313323963}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &70812911
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,7 +558,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8d6414c09ca531d4999681c7b2da55c3, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8d6414c09ca531d4999681c7b2da55c3, type: 3}
       propertyPath: m_LocalScale.x
@@ -618,6 +623,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8d6414c09ca531d4999681c7b2da55c3, type: 3}
   m_PrefabInstance: {fileID: 313323963}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &313323967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64528498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31cc2dab04e3d914888ac0dd919b3c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToRotate: {fileID: 64528498}
+  rotationSpeed: 40
+--- !u!114 &313323968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64528498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9d3881e0bfa6e4e87e926e3fadacb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToRotate: {fileID: 64528498}
+  rotationSpeed: 40
 --- !u!1 &468549580
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,7 +837,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 648686974}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 313323967}
+        m_TargetAssemblyTypeName: RotateObjectRL, Assembly-CSharp
+        m_MethodName: RotateObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1367414620}
+        m_TargetAssemblyTypeName: RotateObjectRL, Assembly-CSharp
+        m_MethodName: RotateObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &648686974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1070,6 +1127,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &726281023 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 559a8ea8f9b105148aadb876db574d8e, type: 3}
+  m_PrefabInstance: {fileID: 1367414618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &733157038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,7 +1680,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1134663077}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 313323968}
+        m_TargetAssemblyTypeName: RotateObjectUD, Assembly-CSharp
+        m_MethodName: RotateObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1367414621}
+        m_TargetAssemblyTypeName: RotateObjectUD, Assembly-CSharp
+        m_MethodName: RotateObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1134663077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1735,6 +1821,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 559a8ea8f9b105148aadb876db574d8e, type: 3}
   m_PrefabInstance: {fileID: 1367414618}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1367414620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726281023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31cc2dab04e3d914888ac0dd919b3c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToRotate: {fileID: 726281023}
+  rotationSpeed: 40
+--- !u!114 &1367414621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726281023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9d3881e0bfa6e4e87e926e3fadacb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToRotate: {fileID: 726281023}
+  rotationSpeed: 40
 --- !u!1 &1408321500
 GameObject:
   m_ObjectHideFlags: 0
