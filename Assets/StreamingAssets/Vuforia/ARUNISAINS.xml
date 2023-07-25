@@ -4,13 +4,15 @@
     <ImageTarget name="Tata_Surya_10" size="300.000000 300.000000" />
     <ImageTarget name="Tata_Surya_9" size="300.000000 300.000000" />
     <ImageTarget name="Tata_Surya_8" size="300.000000 300.000000" />
-    <ImageTarget name="Tata_Surya_7" size="300.000000 300.000000" />
     <ImageTarget name="Tata_Surya_6" size="300.000000 300.000000" />
     <ImageTarget name="Tata_Surya_5" size="300.000000 300.000000" />
-    <ImageTarget name="Tata_Surya_4" size="300.000000 300.000000" />
     <ImageTarget name="Tata_Surya_3" size="300.000000 300.000000" />
-    <ImageTarget name="Tata_Surya_2" size="300.000000 300.000000" />
+    <ImageTarget name="Tata_Surya_2" size="3.000000 3.000000" />
     <ImageTarget name="Tata_Surya_1" size="300.000000 300.000000" />
+    <ImageTarget name="ITracking_Human_Anatomy_Funfact" size="300.000000 300.000000" />
+    <ImageTarget name="ITracking_Solar_System_Funfact" size="300.000000 300.000000" />
+    <ImageTarget name="Tata_Surya_7" size="300.000000 300.000000" />
+    <ImageTarget name="Tata_Surya_4" size="300.000000 300.000000" />
     <ImageTarget name="Image_Tracking_2" size="300.000000 300.000000" />
     <ImageTarget name="Image_Tracking_1" size="300.000000 300.000000" />
   </Tracking>
